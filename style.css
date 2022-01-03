@@ -59,21 +59,9 @@ html {
     border: 1px solid #CAD0D2;
     border-radius: 4px;
     overflow: hidden;
-    min-width: 710px;
+    max-width: 710px;
   }
   
-  @media (max-width: 725px){
-    .cardGroup{
-      min-width: 320px;
-    }
-  } 
-  
-  @media (max-width: 325px){
-    .cardGroup{
-      min-width: 100px;
-      flex-direction: column
-    }
-  } 
   
   .cardGroup__card {
     flex-shrink: 1;
